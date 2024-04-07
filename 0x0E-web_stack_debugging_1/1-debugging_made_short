@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-In -f /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+ln -f /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx start
 kil "$(pgrep 'nginx' | head -1)"
