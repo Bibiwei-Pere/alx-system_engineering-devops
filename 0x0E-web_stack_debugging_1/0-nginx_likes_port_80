@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
 rm /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/default/etc/nginx/sites-enabled/default
+In -s /etc/nginx/sites-available/default/etc/nginx/sites-enabled/default
 service nginx restart
-
